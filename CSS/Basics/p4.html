@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-basics</title>
+    <style>
+        .combination{
+            background-color: blanchedalmond;
+            color: cornflowerblue;
+            padding: 20px;
+        }
+        .combination+h5{
+            color:blue;
+
+        }
+        .combination+H5+H5{
+            color:red;
+        }
+        .combination+H5+H5+h5{
+            color:rgb(217, 255, 0);
+        }
+        .combination+H5+H5+H5+H5{
+            color:rgb(255, 0, 179);
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>There are 4 different combinations in CSS</h1>
+    <ol>
+        <li>Descendent selector(using space) </li>
+        <li>Child selector (using >symbol)</li>
+        <li>Adjacent sibling selector(using + symbol)</li>
+        <li>General sibling selector(using ~ symbol)</li>
+    </ol>
+
+
+    <h1>Adjacent sibling selector(using + symbol)</h1>
+
+    <section class="combination">
+    </section>
+        <h5>This is first H5 </h5>
+        <h5>This is second H5 </h5>
+        <h5>This is Third H5 </h5>
+        <h5>This is forth H5 </h5>
+        <h5>This is fifth H5 </h5>
+
+  
+</body>
+</html>

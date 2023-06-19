@@ -1,0 +1,45 @@
+<HTML>
+    <head>
+        <title>Marque tag...</title>
+        
+    </head>
+<body>
+    <Marquee>This is marquee tag...!</Marquee>
+    <Marquee><a href="">This is marquee tag...!</a></Marquee>
+    <Marquee bgcolor="teal">This is marquee tag...!</Marquee>
+
+
+    <br><hr>
+
+    <marquee behaviour="alternate" bgcolor="skyblue">This is alternate tag</marquee>
+    <marquee behaviour="scroll" bgcolor="skyblue">This is a scroll  tag</marquee>
+    <marquee behaviour="slide" bgcolor="skyblue">This is a slide  tag</marquee>
+
+    <marquee direction= "right" bgcolor= "teal"> This is alternate tag </marquee>
+    <marquee direction= "left" bgcolor= "teal"> This is alternate tag </marquee>
+    <marquee direction= "up" height = "100" bgcolor= "pink"> This is alternate tag </marquee>
+    <marquee direction= "down" height = "100" bgcolor= "teal"> This is alternate tag </marquee>
+
+
+    <hr>
+
+
+    <marquee bgcolor="skyblue" scrollamount="5" id = "test" >This is alternate tag</marquee>
+    <marquee bgcolor="skyblue" scrollamount="10">This is alternate tag</marquee>
+    <marquee bgcolor="skyblue" scrollamount="20">This is alternate tag</marquee>
+    <marquee bgcolor="skyblue" scrollamount="30">This is alternate tag</marquee>
+
+
+    <script>
+        document.getElementById("test").onmouseover = function(){
+            Document.getElementById("test").stop();
+        }
+
+        document.getElementById("test").onmouseover = function(){
+            Document.getElementById("test").start();
+        }
+    </script>
+
+
+</body>
+    </html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-basics</title>
+    <style>
+        .combination{
+            background-color: rgb(65, 64, 62);
+            color: rgb(246, 247, 248);
+            padding: 20px;
+        }
+        .combination~h5{
+            color:rgb(255, 0, 0);
+
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>There are 4 different combinations in CSS</h1>
+    <ol>
+        <li>Descendent selector(using space) </li>
+        <li>Child selector (using >symbol)</li>
+        <li>Adjacent sibling selector(using + symbol)</li>
+        <li>General sibling selector(using ~ symbol)</li>
+    </ol>
+
+
+    <h1>General sibling selector(using ~ symbol)</h1>
+
+    <section class="combination">
+    
+    <h3>First H3 tag (child element)</h3>
+    <p>first paragraph....(child element)</p>
+    
+    <h3>Second H3 tag (child element)</h3>
+    <p>Second paragraph....(child element)</p>
+
+    <h3>Third H3 tag (child element)</h3>
+    <p>third paragraph....(child element)</p>
+
+</section>
+  
+<h5>First H3 tag (child element)</h5>
+<p>first paragraph....(child element)</p>
+
+<h5>Second H3 tag (child element)</h5>
+<p>Second paragraph....(child element)</p>
+
+<div>
+<h5>Third H3 tag (child element)</h5>
+<p>third paragraph....(child element)</p>
+</div>
+
+<h5>Forth H3 tag (child element)</h5>
+<p>Forth paragraph....(child element)</p>
+</body>
+</html>

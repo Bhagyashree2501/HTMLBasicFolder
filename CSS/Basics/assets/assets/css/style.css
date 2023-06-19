@@ -1,0 +1,44 @@
+.cssColor1{
+    background-color:teal;
+    
+    }
+    .cssColor2{
+        background-color:skyblue;
+        
+        }
+        .cssColor3{
+            background-color:gray;
+            
+            }
+            .commonCssColor{
+                color:white;
+                padding:20px;
+                margin:20px;
+    
+            }
+    
+            /*P7.html*/
+    
+            .cssFont{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 20px;
+                font-variant: small-caps;
+            }
+    
+            .cssText{
+                text-align: justify;
+                line-height: 2;
+                letter-spacing: 2px;
+                word-spacing: 10px;
+                text-transform: capitalize;
+                
+                text-decoration: dotted;
+            }
+            .cssText>p{
+    
+                text-indent : 100px;
+            }
+    
+    

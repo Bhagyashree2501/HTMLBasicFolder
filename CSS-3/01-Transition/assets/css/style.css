@@ -1,0 +1,49 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+/*p1.html*/
+section{
+    background-color: teal;
+    padding: 20px;
+    margin:20px;
+}
+.transition{
+    color:#fff;
+    transition: 2000ms;
+    transition: 2s;
+    transition: color 2s;
+    transition: background-color calc(1s +1s);
+}
+.transition:hover{
+    color:lightgrey;
+    background-color: grey;
+}
+/*P2.html*/
+.bgClip{
+    border:5px dotted #40a0e9 ;
+    border-radius: 10px;
+    text-align: justify;
+    transition:2s;
+    background-clip:content-box;
+    background-clip: padding-box;
+    background-clip: border-box;
+}
+.bgClip:hover{
+    border-radius:50%;
+    text-align: center;
+}.common:hover{
+    width:100px;
+    background-color: gold;
+}
+
+
+
+/* p3.html */
+#d1 { transition-timing-function:linear;} /*cubic-bezier(0,0,1,1)*/
+#d1 { transition-timing-function: ease-in;} /*cubic-bezier(0,42,0,1,1)*/
+#d1 { transition-timing-function: ease-out;} /*cubic-bezier(0,0,0,58,1)*/
+#d1 { transition-timing-function:ease;} /*cubic-bezier(0,25,1,0,25,1)*/
+#d1 { transition-timing-function:ease-in-out;} /*cubic-bezier(0,42,0,0,58,1)*/
+#d1 { transition-timing-function:steps(4,jump-start);} /*jump-star,jump-end,start,end,jump-both,jump-none*/
+#d1 { transition-timing-function:cubic-bexier(0,5,0,7,8,0,.1);} 

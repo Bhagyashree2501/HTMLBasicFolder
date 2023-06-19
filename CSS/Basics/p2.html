@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-basics</title>
+    <style>
+        .combination{
+            background-color: blanchedalmond;
+            color: cornflowerblue;
+            padding: 20px;
+        }
+        .combination h3{
+            color:blue;
+
+        }
+        .combination p{
+            color:green;
+        }
+    </style>
+</head>
+<body>
+    <h1>There are 4 different combinations in CSS</h1>
+    <ol>
+        <li>Descendent selector(using space) </li>
+        <li>Child selector (using >symbol)</li>
+        <li>Adjacent sibling selector(using + symbol)</li>
+        <li>General sibling selector(using ~ symbol)</li>
+    </ol>
+
+
+    <h1>Descendent selector(using space)</h1>
+
+    <section class="combination">
+        <h3>First H3 tag (child element)</h3>
+        <p>first paragraph....(child element)</p>
+
+        <h3>Second H3 tag (child element)</h3>
+        <p>second paragraph....(child element)</p>
+
+        <h3>Third H3 tag (child element)</h3>
+        <p>Third paragraph....(child element)</p>
+
+        <div>
+        <h3>Forth H3 tag (grandchild element)</h3>
+        <p>Forth paragraph....(grandchild element)</p>
+    </div>
+
+        <h3>Fifth H3 tag (child element)</h3>
+        <p>Fifth paragraph....(child element)</p>
+
+    </section>
+</body>
+</html>

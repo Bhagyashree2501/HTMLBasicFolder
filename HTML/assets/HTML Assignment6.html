@@ -1,0 +1,207 @@
+<html>
+    <head>
+        <title>HTML-FORM</title>
+        <style>
+            input, textarea{
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+    
+
+<Center><h1>New Employee Details Form</h1></Center>
+
+<form>
+ <table>
+    <form>
+    <h2>Personal Details</h2>
+        <tr align="left">
+            <td>Your Name: </td>
+                <td><select name="Title" id="Title">
+
+                    <option value="" >Mr.</option>
+                    <option value="" >Miss.</option> 
+                    <option value="" >Mrs.</option>
+                </select>
+                    <input type="text" placeholder = "First Name" name="firstname" id="firstName" size="12" required> 
+                <input type="text" placeholder = "Middle Name" name="Middlename" id="MiddleName" size="12">
+                <input type="text" placeholder = "Last Name" name="Lastname" id="LastName" size="12" required></td>
+        </tr>
+
+        <tr align="left">
+            <td>*Gender:</td>
+            <td><input type = "radio" value="MALE" id="MALE" name="gender">
+            <label for = " "> Male </label> <input type = "radio" value="FEMALE" id="FEMALE" name="gender">
+            <label for = " "> Female </label></td>
+            <br>
+        </tr>
+            
+            <tr align="left">
+                <td>*Birthdate: </td>
+                    <td><input type = "date"></td>
+            </tr>
+            <br>
+            <tr align="left">
+            <td>Address: </td>
+            <td><input type="text" placeholder="Street Address" id="streetaddress" required>
+                <input type="text" placeholder="Street Address Line 2" id="streetaddressline2"> <br>
+                <input type="text" placeholder="Suburb" id="suburb" required>
+                <input type="text" placeholder="State" id="state" required>
+                <input type="number" placeholder="Postocde" id="postcode" required></td>
+          
+                
+                </tr>
+
+                <tr align="left">
+                    <td>Contact :</td>
+                        <td><input type="Number" id="Number" placeholder="HomeNumber" required>
+                            <input type="Number" id="Number" placeholder="MobileNumber" required>
+                            <input type="text" id="text" placeholder="email_id" required>
+                </tr>
+                
+                <tr align="left">
+                    <td>*Are you australian?</td>
+                    <td><input type = "radio" value="Yes" id="Yes" name="Are you australian?">
+                    <label for = " "> Yes </label> <input type = "radio" value="No" id="No" name="Are you australian?">
+                    <label for = " "> No </label></td>
+                    
+                </tr>
+                <tr align="left">
+                    <td>*Do you have working visa?</td>
+                    <td><input type = "radio" value="Yes" id="Yes" name="Do you have working visa?">
+                    <label for = " "> Yes </label> 
+                    <input type = "radio" value="No" id="No" name="Do you have working visa?">
+                    <label for = " "> No </label></td>
+                    
+                </tr>
+                
+            </form>
+        </table>
+        <table>
+            <form>
+
+                <h2>*Employement Details</h2>
+                <tr align="left">
+                <td>Job Title: </td>
+                <td><input type="text"  id="text" size"5"></td>
+                </tr>
+
+                
+                <tr align="left">
+                <td>*Commencement Date: </td>
+                <td><input type="date"  id="date" size"5"></td>
+                </tr>
+
+               
+                <tr align="left">
+                <td>*File Tax Number: </td>
+                <td><input type="number"  id="number" size"5"></td>
+                </tr>
+
+                
+
+
+                <tr align="left">
+                    <td>Employement Status:</td>
+                    <td><input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">Fulltime</label>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">Part time</label>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">Temporary</label>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">Casual</label></td>
+                    </tr>              
+            </form>
+            </table>
+
+            <table>
+                <form>
+                    <h2>Emergency Contact Details</h2>
+                    <tr align="left">
+                        <td>Name: </td>
+                        <td><select name="Title" id="Title">
+
+                                <option value="" >Mr.</option>
+                                <option value="" >Miss.</option> 
+                                <option value="" >Mrs.</option>
+                            </select>
+                           
+                            <input type="text" placeholder = "First Name" name="firstname" id="firstName" size="12" required> 
+                        <input type="text" placeholder = "Middle Name" name="Middlename" id="MiddleName" size="12">
+                        <input type="text" placeholder = "Last Name" name="Lastname" id="LastName" size="12" required></td>
+                    </tr>
+                    <tr align="left">
+                        <td>*Relationship:</td>
+                        <td><input type="text" id="text" required></td>
+                       
+                    </tr>
+
+                    <tr align="left">
+                        <td>Contact :</td>
+                        <td><input type="Number" id="Number" placeholder="HomeNumber" required>
+                            <input type="Number" id="Number" placeholder="MobileNumber" required>
+                            <input type="text" id="text" placeholder="email_id" required>
+                    </td>
+                    </tr>
+                </form>
+            </table>
+
+            <table>
+                <form>
+                    <h2>Banking Details:</h2>
+                    <tr align="left">
+                        <td>Bank :</td>
+                        <td><input type="text" id="text" placeholder="Bank Name" required>
+                            <input type="text" id="text" placeholder="Bank Branch" required></td>
+                    </tr>
+
+                    <tr align="left">
+                        <td>Account :</td>
+                        <td><input type="text" id="text" placeholder="Account Name" required>
+                            <input type="text" id="text" placeholder="Account Number" required>
+                            <input type="Number" id="Number" placeholder="BSB Number" required>
+                        </td>
+                    </tr>
+
+                    <tr align="left">
+                        <td>*Employee Signature :</td>
+                        <td>
+                            <input type = "image" height="100" width=" 300" required><br>
+                            <input type="text" id="text" placeholder="Print your name here "><br>
+                            <input type="text" id="text" placeholder="Enter date here"><br></td>
+
+                    </tr>
+                    <br>
+                    <tr align="left">
+                    <td><button type="submit">SUBMIT</button></td>
+                </tr>
+
+                </form>
+            </table>
+</form>
+               
+            
+            
+           
+            
+
+            
+
+            
+          
+                
+                
+              
+                
+                
+
+
+
+                
+
+                   
+        
+    </body>
+</html>

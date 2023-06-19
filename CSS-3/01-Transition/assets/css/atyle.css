@@ -1,0 +1,21 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+/*p1.html*/
+section{
+    background-color: teal;
+    padding: 20px;
+    margin:20px;
+}
+.transition{
+    color:#fff;
+    transition: 2000ms;
+    transition: 2s;
+    transition: color 2s;
+    transition: background-color calc(1s +1s);
+}
+.transition:hover{
+    color:lightgrey;
+    background-color: grey;
+}

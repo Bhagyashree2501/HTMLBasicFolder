@@ -1,0 +1,229 @@
+.cssColor1{
+background-color:teal;
+
+}
+.cssColor2{
+    background-color:skyblue;
+    
+    }
+    .cssColor3{
+        background-color:gray;
+        
+        }
+        .commonCssColor{
+            color:white;
+            padding:20px;
+            margin:20px;
+
+        }
+
+        /*P7.html*/
+
+        .cssFont{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 20px;
+            font-variant: small-caps;
+        }
+
+        .cssText{
+            text-align: justify;
+            line-height: 2;
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            text-transform: capitalize;
+            
+            text-decoration: dotted;
+        }
+        .cssText>p{
+
+            text-indent : 100px;
+        }
+
+        /*p8.html*/
+        *{
+            padding:0%;
+            margin:0%;
+        }
+        header{
+            background-color: grey;
+        }
+        header>nav>ul{
+            list-style-type: none;
+            float: right;
+
+        }
+        header>nav>img{
+            height:70px;
+        }
+        header>nav>ul>li{
+            display:inline-block;
+            padding:20px;
+        }
+
+        header>nav>ul>li:hover{
+            background-color:#fff;
+        }
+
+        header>nav>ul>li:hover a{
+            color: #808080;
+        }
+
+        header>nav>ul>li>a{
+            color:#fff;
+            text-decoration: none;
+        }
+        .navBar{
+            background-color: gray;
+
+        }
+        .navBar>ul{
+            list-style: none;
+            padding: 0%;
+            margin: 0%;
+            float: right;
+        }
+        .navBar>ul>li{
+            display:inline-block;
+            padding:25px;
+
+        }
+        
+
+        .navBar>ul>li:hover{
+            background-color:#fff;
+
+        }
+        .navBar>ul>li>a{
+            background-color:#fff;
+            text-decoration:none;
+
+            
+        }
+        .navBar>ul>li:hover a{
+            color: #808080;
+        }
+        .navBar>img{
+            height:54px;
+        }
+
+        /*List marker position*/
+        .list-marker-position>ol>li{
+            background-color: teal;
+            padding: 20px;
+            margin-bottom: 20px;
+            list-style-position: inside;
+        }
+        .list-marker-position>ol>li>a{
+            color:#fff;
+            text-decoration: none;
+        }
+        .list-marker-position>ol>li::marker{
+            color: yellow;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        /*image as bullet point*/
+        .list-icon>ul>li{
+            list-style-image:url(../images/logo2.png);
+        }
+        /*list shporthand property*/
+        .list-shorthand>ul>li{
+            background-color: teal;
+            padding: 20px;
+            margin-bottom: 20px;
+            /* list-style-type:decimal
+            List-style-position: inside
+            list-style-image:url(../images/logo2.png); */
+            list-style:decimal inside url(../images/logo2.png);
+        }
+
+        /*empty-cell-table*/
+        .empty-cell-table{
+            empty-cells: hide;
+        }
+
+        .odd-even-Table,.odd-even-Table th, .odd-even-Table td{
+            border: 2px solid black;
+            padding: 20px;
+            border-collapse: collapse;
+            color: #f16262;
+
+        }
+        .odd-even-Table tr:nth-child(odd){
+            background-color: #808080;
+        }
+        .odd-even-Table tr:nth-child(odd){
+            background-color:aquamarine;
+        }
+        .odd-even-Table tr:hover{
+            background-color: #ad9aad;
+        }
+        .odd-even-Table th{
+            background-color: #87ceed;
+        }
+        .odd-even-Table>caption{
+            color: #808080;
+            font-weight: bold;
+            font-size: small;
+        caption-side: bottom;
+        }
+        .odd-even-Table td{
+           height:200px;
+           vertical-align: center;
+        }
+        .layout-table, .layout-table th, .layout-table td{
+            border: 2px solid black;
+            padding: 20px;
+            border-collapse: collapse;
+        
+        }
+        .layout-table{
+            width:10%;
+            table-layout:fixed;
+
+        }
+        .layout-table th, .layout-table td{
+            overflow:scroll;
+
+        }
+
+        /*p10 p11*/
+        .banner1{
+            background-color: bisque;
+        }
+        .bannerCommanClass{
+            color:#808080;
+            padding: 30px;
+            height: 300px;
+            text-align: center;
+
+        }
+        .bannerCommanClass>h1{
+            font-size: 50px;
+        }
+        .bannerCommanClass>h1:hover{
+            color:black;
+        }
+        .banner2{
+            background-image: url(../images/bird.jpg);
+            background-repeat:no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+
+
+
+
+
+
+        
+
+
+
+
+    
+
+

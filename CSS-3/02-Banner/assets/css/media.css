@@ -1,0 +1,43 @@
+@media(max-width:768px){
+    header{
+        background-color: skyblue;
+        padding:20px;
+    }
+    header>nav>ul>li{
+        display: block;
+    }
+    header>nav>ul{
+        float:none;
+    }
+    header>nav{
+        text-align: center;
+    }
+    .banner1{
+        background-color: skyblue;
+    }
+}
+/*TAB VERSION*/
+@media(min-width:769px) and (max-width:1024px){
+    header{
+        background-color: teal;
+        padding:20px;
+    }
+    header>nav>ul{
+        float: none;
+    }
+    header>nav{
+        text-align:center;
+    }
+    .banner1{
+        background-color: skyblue;
+    }
+    /*p9.html*/
+    .banner8{
+    background:-o-linear-gradient(red,white,green);
+    background:-moz-linear-gradient(orange,white,green);
+    background:-webkit-linear-gradient(orange,white,green);
+    background:linear-gradient(red,white,yellow);
+}
+
+    
+}
